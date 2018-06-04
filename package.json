@@ -1,0 +1,22 @@
+{
+  "name": "Youtube-Audio-downloader",
+  "version": "1.0.0",
+  "description": "Youtube audio downloader api service",
+  "main": "index.js",
+  "repository": "www.github.com/mrinalraj/youtube-audio",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Mrinal Raj <+git@github.com/mrinalraj>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "download": "^6.2.5",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "youtube-audio-stream": "^0.0.50",
+    "youtube-dl": "^1.11.1",
+    "youtube-search": "^1.0.10"
+  }
+}
